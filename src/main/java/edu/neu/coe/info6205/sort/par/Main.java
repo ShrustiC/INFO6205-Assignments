@@ -45,7 +45,7 @@ public class Main {
 
                 }
                 try {
-                    FileOutputStream fis = new FileOutputStream("./src/result_"+threadCount+"_threads_arraySize_"+arraySize+".csv");
+                    FileOutputStream fis = new FileOutputStream("./src/result/result_"+threadCount+"_threads_arraySize_"+arraySize+".csv");
                     OutputStreamWriter isr = new OutputStreamWriter(fis);
                     BufferedWriter bw = new BufferedWriter(isr);
                     int j = 50;
