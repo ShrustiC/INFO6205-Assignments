@@ -83,7 +83,7 @@ public class RandomWalk {
         /*if (args.length == 0)
             throw new RuntimeException("Syntax: RandomWalk steps [experiments]");
         int m = Integer.parseInt(args[0]);*/
-        int m=5;
+        int m=12;
         int n = 30;
         if (args.length > 1) n = Integer.parseInt(args[1]);
         double meanDistance = randomWalkMulti(m, n);
